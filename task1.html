@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="task1.css">
+    <script src="https://kit.fontawesome.com/d2d08ec190.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.jpg" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li> 
+          <li><a href="#about">About</a></li> 
+          <li><a href="#product">Product</a></li>
+          <li><a href="#customer">Customer Reviews </a></li>
+          <li><a href="#contact">Contact US</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>HII BEAUTY</p><br>
+        <h1>Let's make it <span>Shine</span><br>together</h1>
+      </div>
+    </div>
+  </div>
+  <!-- -----------about---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about us.jpg">
+          </div>
+          <div class="about-col-2">
+          <h1 class="sub-title">About US</h1><br>
+          <p>At Snowflake <i class="fa-regular fa-snowflake"></i>, fashion is more than just clothing—it's a statement of individuality and confidence. 
+            Founded with a passion for style and innovation, we craft timeless and trend-forward pieces that empower you to express your unique personality.
+            Our collections are inspired by global trends and designed with a focus on quality, comfort, and sustainability.
+             Whether you're looking for bold, eye-catching designs or versatile everyday wear, we've got you covered.  
+            Join us in celebrating fashion that feels as good as it looks. Together, let's redefine style, one outfit at a time.  
+            Your style, your story.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div> 
+ <!-- ---------------product---------- -->
+ <div id="product">
+  <div class="container">
+    <h1 class="sub-title">Our Favorites</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/dress1.jpg">
+        <div class="layer">
+          <i class="fa-regular fa-snowflake"></i>
+          <h3>floral black dress</h3>
+          <p>with great offers</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/dress2.jpg">
+        <div class="layer">
+          <i class="fa-regular fa-snowflake"></i>
+          <h3>floral printed bodycon midi dress</h3>
+          <p>ligth weigth and available in different colour and print</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/dress3.jpg">
+        <div class="layer">
+          <i class="fa-regular fa-snowflake"></i>
+          <h3>model evening gown</h3>
+          <p>Perfect for business dinner and fancy parties</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+ <!-- ------------customer reveiw------------ -->
+  <div id="customer">
+    <div class="container">
+       <h1 class="sub-title">Customer Reviews</h1>
+       <div class="services-list">
+        <div>
+          <i class="fa-solid fa-star"></i>
+          <h2>Emma Taylor</h2>
+          <p>My favorite top brand snowflake!!!
+            Keep going to the great No.1 Quality clothing. it is the strongest clothing company! Gorgeous shop!
+            Awesome staff, I wish I could buy lots more!!</P>
+            <a href="#">Read more</a>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-star-half"></i>
+          <h2>Saloni Patel</h2>
+          <p> I have been looking for a good quality product at a good prize and I found it, thanks.
+            it has a great fit as well </P>
+            <a href="#">Read more</a>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <h2>Adnan Akram</h2>
+          <p>I've had an amazing experience shopping at sniwflake!
+            the website is incredibly user-friendly and easy to navigate. Ifound a great selection of products,
+            especially in the electronics and fashion categories.
+          </P>
+            <a href="#">Read more</a>
+        </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  
+   <!-- ------------contact---------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>kanojiasneha1@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 7078967918</p>
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/sneha-kanojia"><i class="fa-brands fa-linkedin"></i></i></a>
+            <a href="https://github.com/Sneha071103"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/kanojiasneha1"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2" >Submit</button>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Sneha. Made with <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+    <!-- ------------script---------- -->
+ <script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+       for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+  }
+
+ </script>  
+</body>
+</html>
